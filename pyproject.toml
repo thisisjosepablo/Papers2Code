@@ -1,0 +1,18 @@
+[project]
+name = "resnet"
+version = "0.1.0"
+description = "Resnet implementation from scratch"
+authors = [
+    {name = "Jose Pablo",email = "sortzweb@gmail.com"}
+]
+package-mode = false
+requires-python = ">=3.11,<3.15"
+dependencies = [
+    "torch (>=2.10.0,<3.0.0)",
+    "torchvision (>=0.25.0,<0.26.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
